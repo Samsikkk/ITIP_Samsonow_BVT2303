@@ -1,0 +1,11 @@
+public class Gallons {
+    public static void main(String[] args) {
+        int gallons = 5;
+        double liters = Gallons(gallons);
+        System.out.println(liters);
+    }
+
+    public static double Gallons(int gallons) {
+        return gallons * 3.785;
+    }
+}
